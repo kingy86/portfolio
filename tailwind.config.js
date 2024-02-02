@@ -2,7 +2,11 @@
 export default {
   content: ['./src/**/*.{html,svelte,js,ts}'],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        poppins: ['"Poppins"', 'sans-serif'],
+        },
+    },
   },
   plugins: [require('daisyui')],
 }
