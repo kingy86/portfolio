@@ -1,5 +1,5 @@
 <script>
-    // your script goes here
+    import Header from "$lib/components/Header.svelte"
 </script>
 
 
@@ -12,9 +12,10 @@
 </style>
 
 <div class="hero min-h-screen">
+  <Header />
   <div class="hero-content w-8/12">
     <div>
-      <h1 class="text-5xl font-bold text-white font-poppins">Building digital avenues to communicate with your audience.</h1>
+      <h1 class="text-5xl font-bold text-white font-poppins leading-tight">Building digital avenues to communicate with your audience.</h1>
       <p class="text-2xl py-6 text-white font-poppins">Providing web development services to startups and SME’s across Scotland.</p>
     </div>
   </div>

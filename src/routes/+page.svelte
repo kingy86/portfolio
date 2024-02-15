@@ -1,4 +1,6 @@
 <script>
+    import Hero from "$lib/components/Hero.svelte";
+
     import "../app.css";
 </script>
 
@@ -7,3 +9,5 @@
 </style>
 
 <!-- markup (zero or more items) goes here -->
+
+<Hero/>
