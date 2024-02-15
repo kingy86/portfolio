@@ -1,4 +1,6 @@
 <script>
+
+import About from "$lib/components/About.svelte"
     import "../app.css";
 </script>
 
@@ -7,5 +9,5 @@
 </style>
 
 <!-- markup (zero or more items) goes here -->
-
+<About/>
 
