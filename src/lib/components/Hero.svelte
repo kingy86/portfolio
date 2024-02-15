@@ -5,13 +5,13 @@
 
 <style>
     .hero {
-      background: url("$lib/images/hero-bg.webp");
+      background: url("/images/hero-bg.webp");
       background-size: cover;
       background-repeat: no-repeat;
     }
 </style>
 
-<div class="hero min-h-screen">
+<div class="hero min-h-screen flex flex-col">
   <Header />
   <div class="hero-content w-8/12">
     <div>

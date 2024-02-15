@@ -7,7 +7,7 @@
 </style>
 <header class="w-full flex flex-row justify-between">
 <div class="logo">
-  <img src="logo.webp" />
+  <img src="/images/logo.webp" alt="Logo" />
 </div>
 <Menu/>
 </header>
