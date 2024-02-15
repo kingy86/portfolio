@@ -17,7 +17,7 @@
           </label>
         </div>
 
-        <div class="flex-none">
+        <div class="flex-none max-lg:hidden">
           <ul class="menu menu-horizontal px-1">
             <li class="font-semibold text-white text-lg"><a>About</a></li>
             <li class="font-semibold text-white text-lg"><a>Services</a></li>
