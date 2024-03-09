@@ -3,9 +3,9 @@
 </script>
 
 <!-- markup (zero or more items) goes here -->
-<section id="about">
-	<div class="w-10/12 p-10">
-		<h2 class="text-4xl font-semibold font-poppins leading-tight">
+<section id="about" class="flex justify-center">
+	<div class="w-10/12 py-16">
+		<h2 class="text-5xl font-semibold font-poppins leading-tight">
 			Providing cutting-edge digital solutions to startups and SMEs, to deliver effective results.
 		</h2>
 		<p class="text-base py-6 font-poppins">
