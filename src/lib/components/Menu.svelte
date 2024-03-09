@@ -19,9 +19,9 @@
 
         <div class="flex-none max-lg:hidden">
           <ul class="menu menu-horizontal px-1">
-            <li class="font-semibold text-white text-lg"><a>About</a></li>
-            <li class="font-semibold text-white text-lg"><a>Services</a></li>
-            <li class="font-semibold text-white text-lg"><a>Contact</a></li>
+            <li class="font-semibold text-white text-lg"><a href="#about">About</a></li>
+            <li class="font-semibold text-white text-lg"><a href="#services">Services</a></li>
+            <li class="font-semibold text-white text-lg"><a href="#contact">Contact</a></li>
           </ul>
         </div>
       </div>
