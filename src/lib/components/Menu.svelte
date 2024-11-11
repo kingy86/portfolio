@@ -1,41 +1,55 @@
 <script>
-    // your script goes here
+	// your script goes here
 </script>
 
-<style>
-    /* your styles go here */
-</style>
-
 <div class="drawer drawer-end">
-  <input id="responsive-menu" type="checkbox" class="drawer-toggle" /> 
-    <div class="drawer-content flex flex-col content-end">
-      <!-- Navbar -->
-      <div class="w-1/2 navbar self-end justify-end">
-        <div class="flex-none lg:hidden">
-          <label for="responsive-menu" aria-label="open sidebar" class="btn btn-square btn-ghost text-white">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-6 h-6 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
-          </label>
-        </div>
+	<input id="responsive-menu" type="checkbox" class="drawer-toggle" />
+	<div class="drawer-content flex flex-col content-end">
+		<!-- Navbar -->
+		<div class="w-1/2 navbar self-end justify-end">
+			<div class="flex-none lg:hidden">
+				<label
+					for="responsive-menu"
+					aria-label="open sidebar"
+					class="btn btn-square btn-ghost text-white"
+				>
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						fill="none"
+						viewBox="0 0 24 24"
+						class="inline-block w-6 h-6 stroke-current"
+						><path
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							stroke-width="2"
+							d="M4 6h16M4 12h16M4 18h16"
+						></path></svg
+					>
+				</label>
+			</div>
 
-        <div class="flex-none max-lg:hidden">
-          <ul class="menu menu-horizontal px-1">
-            <li class="font-semibold text-white text-lg"><a href="#about">About</a></li>
-            <li class="font-semibold text-white text-lg"><a href="#services">Services</a></li>
-            <li class="font-semibold text-white text-lg"><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-      </div>
+			<div class="flex-none max-lg:hidden">
+				<ul class="menu menu-horizontal px-1">
+					<li class="font-semibold text-white text-lg"><a href="#about">About</a></li>
+					<li class="font-semibold text-white text-lg"><a href="#services">Services</a></li>
+					<li class="font-semibold text-white text-lg"><a href="#contact">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="drawer-side z-1">
+		<label for="responsive-menu" aria-label="close sidebar" class="drawer-overlay">
+			<p class="drawer-toggle text-black">Close</p>
+		</label>
 
-    </div>
-    <div class="drawer-side z-1">
-      <label for="responsive-menu" aria-label="close sidebar" class="drawer-overlay">
-       <p class="drawer-toggle text-black">Close</p>
-      </label> 
-      
-      <ul class="menu p-4 w-80 min-h-full bg-orange-600">
-        <li class="font-semibold text-white text-lg"><a>About</a></li>
-        <li class="font-semibold text-white text-lg"><a>Services</a></li>
-        <li class="font-semibold text-white text-lg"><a>Contact</a></li>
-      </ul>
-    </div>
+		<ul class="menu p-4 w-80 min-h-full bg-orange-600">
+			<li class="font-semibold text-white text-lg"><a>About</a></li>
+			<li class="font-semibold text-white text-lg"><a>Services</a></li>
+			<li class="font-semibold text-white text-lg"><a>Contact</a></li>
+		</ul>
+	</div>
 </div>
+
+<style>
+	/* your styles go here */
+</style>

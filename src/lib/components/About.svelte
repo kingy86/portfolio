@@ -4,11 +4,13 @@
 
 <!-- markup (zero or more items) goes here -->
 <section id="about" class="flex justify-center">
-	<div class="w-10/12 py-28 flex">
-		<h2 class="text-4xl font-semibold font-poppins leading-tight">
-			Providing cutting-edge digital solutions to startups and SMEs, to deliver effective results.
+	<div class="w-9/12 py-28 flex">
+		<h2 class="text-5xl font-semibold font-poppins leading-tight">
+			<!-- Providing cutting-edge digital solutions to deliver effective results. -->
+			A results-driven frontend web developer based in West Lothian, Scotland. Specialising in providing
+			cutting-edge digital solutions to startups and SMEs.
 		</h2>
-		<p class="text-base py-2 font-poppins">
+		<!-- <p class="text-base py-2 font-poppins">
 			A results-driven frontend web developer based in West Lothian, Scotland. I specialise in
 			providing cutting-edge digital solutions to startups and SMEs, leveraging my vast experience
 			to deliver effective results for clients.<br /><br /> Throughout my career, I have had the
@@ -19,7 +21,7 @@
 			been able to build strong relationships with clients and deliver solutions that exceed their
 			expectations. If you're looking for a reliable and experienced web developer who can help take
 			your business to the next level, I'm here to help.
-		</p>
+		</p> -->
 	</div>
 </section>
 
