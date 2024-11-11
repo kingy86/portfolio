@@ -43,9 +43,9 @@
 		</label>
 
 		<ul class="menu p-4 w-80 min-h-full bg-orange-600">
-			<li class="font-semibold text-white text-lg"><a>About</a></li>
+			<!-- <li class="font-semibold text-white text-lg"><a>About</a></li>
 			<li class="font-semibold text-white text-lg"><a>Services</a></li>
-			<li class="font-semibold text-white text-lg"><a>Contact</a></li>
+			<li class="font-semibold text-white text-lg"><a>Contact</a></li> -->
 		</ul>
 	</div>
 </div>
